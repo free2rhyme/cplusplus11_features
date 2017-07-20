@@ -387,7 +387,6 @@ _GLIBCXX_BEGIN_NAMESPACE_VERSION
 #endif
 #endif // _GLIBCXX_HAS_GTHREADS
 
-  /// Do not acquire ownership of the mutex.
   struct defer_lock_t { };
 
   /// Try to acquire ownership of the mutex without blocking.
